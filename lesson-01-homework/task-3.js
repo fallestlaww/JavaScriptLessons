@@ -21,8 +21,8 @@ switch (login) {
     } break;
     case null: {
         console.log("I don`t know you");
-    }
+    } break;
     default: {
         console.log("Canceled!");
-    }
+    } break;
 }
