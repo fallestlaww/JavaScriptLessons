@@ -10,13 +10,13 @@ switch (login) {
         switch (password) {
             case "TheMaster": {
                 console.log("Welcome!")
-            }
+            } break;
             case null: {
                 console.log("Wrong password!")
-            }
+            } break;
             default: {
                 console.log("Canceled!")
-            }
+            } break;
         }
     } break;
     case null: {
@@ -24,5 +24,5 @@ switch (login) {
     } break;
     default: {
         console.log("Canceled!");
-    } break;
+    }
 }
