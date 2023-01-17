@@ -7,6 +7,6 @@ var employeeSalaries = {
 
 var sum = 0;
 for (var key in employeeSalaries) {
-    sum = + employeeSalaries[key];
+    sum += employeeSalaries[key];
 }
 console.log("Загальна сума зарплат: " + sum)
